@@ -11,7 +11,6 @@ const projects = [
     liveUrl: "https://tanisk.in/",
     githubUrl: "https://github.com/UnknonPerson/PahadPrChale",
   },
-
   {
     id: 2,
     title: "Todo List App",
