@@ -49,7 +49,7 @@ function CTA() {
 
           {/* Button */}
           <a
-            href="mailto:tanish@example.com"
+            href="mailto:tanisk.connect@gmail.com"
             className="mt-10 inline-flex items-center gap-5 border border-yellow-400 bg-black/50 px-8 py-4 text-sm font-black uppercase tracking-widest text-white transition duration-300 hover:bg-yellow-400 hover:text-black"
           >
             Let's Connect
