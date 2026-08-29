@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+body {
+  font-family: 'Rajdhani', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Bebas Neue', sans-serif;
+}
+.character {
+  animation: floatCharacter 5s ease-in-out infinite;
+}
+
+@keyframes floatCharacter {
+  0%, 100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
+:root {
+  --bg: #050709;
+  --panel: #0b0e10;
+  --panel-light: #111518;
+  --gold: #f5b400;
+  --gold-dark: #8d6500;
+  --text: #e5e5e5;
+  --muted: #858585;
+}
